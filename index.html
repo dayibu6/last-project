@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peace Cargo Agency</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Peace Cargo Agency</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><button id="contactBtn">Contact</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h2>Reliable. Fast. Global.</h2>
+      <p>Your trusted logistics partner, delivering peace with every cargo.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 data-aos="fade-up">Our Services</h2>
+    <div class="card-container">
+      <div class="card" data-aos="fade-right">
+        <h3>Air Freight</h3>
+        <p>Quick and safe delivery by air.</p>
+      </div>
+      <div class="card" data-aos="fade-up">
+        <h3>Sea Freight</h3>
+        <p>Cost-effective bulk shipping overseas.</p>
+      </div>
+      <div class="card" data-aos="fade-left">
+        <h3>Customs Clearance</h3>
+        <p>We handle all paperwork and regulations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 data-aos="fade-up">About Us</h2>
+    <p data-aos="fade-up">At Peace Cargo Agency, we connect people and businesses through reliable cargo solutions. With years of experience, we ensure your shipments are safe, secure, and delivered on time.</p>
+  </section>
+
+  <!-- Contact Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="formMsg"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Peace Cargo Agency</p>
+    <div class="socials">
+      <a href="#">🌐</a>
+      <a href="#">📧</a>
+      <a href="#">📱</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
